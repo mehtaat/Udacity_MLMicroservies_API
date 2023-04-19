@@ -1,1 +1,15 @@
-<paste log output from Kubernetes-mediated prediction, here>
+voclabs:~/environment/Udacity_MLMicroservies_API (main) $ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "apppod" already exists
+NAMESPACE     NAME                               READY   STATUS    RESTARTS      AGE
+default       apppod                             1/1     Running   0             56s
+kube-system   coredns-787d4945fb-9pqbn           1/1     Running   0             31m
+kube-system   etcd-minikube                      1/1     Running   0             32m
+kube-system   kube-apiserver-minikube            1/1     Running   0             32m
+kube-system   kube-controller-manager-minikube   1/1     Running   0             32m
+kube-system   kube-proxy-q7glg                   1/1     Running   0             31m
+kube-system   kube-scheduler-minikube            1/1     Running   0             32m
+kube-system   storage-provisioner                1/1     Running   1 (31m ago)   31m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
